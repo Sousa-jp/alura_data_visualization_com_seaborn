@@ -1,7 +1,8 @@
-from importando_e_traduzindo_dados import gorjetas
+from importando_e_traduzindo_dados import (gorjetas)
 from matplotlib import pyplot as plt
 import seaborn as sns
 
+gorjetas = gorjetas
 print('gorjetas.columns : \n', gorjetas.columns)
 
 valor_gorjeta = sns.scatterplot(x='valor_conta', y='gorjeta', data=gorjetas)
