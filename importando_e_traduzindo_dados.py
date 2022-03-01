@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 dados = pd.read_csv('data/tips.csv')
 print('dados.head() : \n', dados.head() )
 
@@ -42,4 +43,3 @@ hora = {
 }
 gorjetas.hora_dia = gorjetas.hora_dia.map(hora)
 print('gorjetas.head() : \n', gorjetas.head())
-
